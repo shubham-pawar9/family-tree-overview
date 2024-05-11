@@ -135,6 +135,8 @@
                             "familyId": "3-1",
                             "name": "Umesh Pawar",
                             "birthYear": 1968,
+                            "birthDay": "",
+                            "birthMonth": "",
                             "deathYear": "",
                             "photo": "Umesh.jpg",
                             "information": {
@@ -160,6 +162,8 @@
                             "familyId": "3-2",
                             "name": "Savita Pawar",
                             "birthYear": 1978,
+                            "birthDay": "",
+                            "birthMonth": "",
                             "deathYear": "",
                             "photo": "Savita.jpg",
                             "information": {

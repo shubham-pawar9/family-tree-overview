@@ -59,7 +59,7 @@ const Tree = ({ familyData }) => {
                               <span className="years">
                                 {value.deathYear != ""
                                   ? `${value.birthYear} - ${value.deathYear}`
-                                  : `${value.birthDay}-${value.birthMonth}-${value.birthYear}`}
+                                  : `${value?.birthDay}-${value?.birthMonth}-${value?.birthYear}`}
                               </span>
                             </div>
                           );
