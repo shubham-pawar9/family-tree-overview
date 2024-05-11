@@ -1,0 +1,401 @@
+[
+    {
+        "id":1,
+        "position": 1,
+        "family": [
+            {
+            "subPosition": 1,
+            "famDetails": [
+             {
+                "familyId": "1-1",
+                "name": "Shamrao Pawar",
+                "birthYear": 1939,
+                "birthDay": "",
+                "birthMonth": "",
+                "deathYear": 2012,
+                "photo": "Aanna.jpg",
+                "information": {
+                    "name": "Shamrao Pawar",
+                    "DOB": "1939",
+                    "position": "Head of Pawar Family",
+                    "PlaceOfBirth": "Satara",
+                    "occupation": "Ex. Indian Army",
+                    "workBackground": "Work in a Indian Army.",                    
+                    "maritalStatus": "Married",
+                    "weddingDetails": "",
+                    "Spouse_Husband": "Tarabai Pawar",
+                    "Children":[
+                    {"name" : "Ramesh Pawar"},
+                    {"name" : "Umesh Pawar"}
+                    ]
+                },
+                "couple":1,
+                "status":"married",
+                "memberPosition": 1
+            },
+            {
+                "familyId": "1-2",
+                "name": "Tarabai Pawar",
+                "birthYear": 1949,
+                "birthDay": "",
+                "birthMonth": "",
+                "deathYear": "",
+                "photo": "Tai.jpg",
+                "information": {
+                    "name": "Tarabai Pawar",
+                    "DOB": "1939",
+                    "position": "Spouse of Shamrao Pawar",
+                    "PlaceOfBirth": "Satara",
+                    "occupation": "Housewife",
+                    "workBackground": "Homemaker",                    
+                    "maritalStatus": "Married",
+                    "weddingDetails": "",
+                    "Spouse_Husband": "Shamrao Pawar",
+                    "Children":[
+                    {"name" : "Ramesh Pawar"},
+                    {"name" : "Umesh Pawar"}
+                    ]
+                },
+                "couple":1,
+                "status":"married",
+                "memberPosition": 2
+            }
+        ]
+        }
+        ]
+        
+    },
+    {
+        "id":2,
+        "position": 2,
+        "family": [
+                {
+                "subPosition": 1,
+                "famDetails": [
+                    {
+                        "familyId": "2-1",
+                        "name": "Rekha Pawar",
+                        "birthYear": 1974,
+                        "birthDay": 6,
+                        "birthMonth": "Aug",
+                        "deathYear": "",
+                        "photo": "Rekha.jpg",
+                        "information": {
+                            "name": "Rekha Pawar",
+                            "DOB": "6 August 1974",
+                            "position": "Spouse of Ramesh Pawar",
+                            "PlaceOfBirth": "Satara",
+                            "occupation": "Housewife",
+                            "workBackground": "Homemaker",                    
+                            "maritalStatus": "Married",
+                            "weddingDetails": "",
+                            "Spouse_Husband": "Ramesh Pawar",
+                            "Children":[
+                            {"name" : "Rohit Pawar"},
+                            {"name" : "Shubham Pawar"}
+                            ]
+                        },        
+                        "couple":2,
+                        "status":"married",
+                        "memberPosition": 4
+                    },
+                    {
+                        "familyId": "2-2",
+                        "name": "Ramesh Pawar",
+                        "birthYear": 1964,
+                        "birthDay": 25,
+                        "birthMonth": "May",
+                        "deathYear": "",
+                        "photo": "Ramesh.jpg",
+                        "information": {
+                            "name": "Ramesh Pawar",
+                            "DOB": "25 May 1964",
+                            "position": "Son of Shamrao Pawar",
+                            "PlaceOfBirth": "Satara",
+                            "occupation": "Security Guard",
+                            "workBackground": "Work as a Security Guard in a Pvt Firm",                    
+                            "maritalStatus": "Married",
+                            "weddingDetails": "",
+                            "Spouse_Husband": "Rekha Pawar",
+                            "Children":[
+                            {"name" : "Rohit Pawar"},
+                            {"name" : "Shubham Pawar"}
+                            ]
+                        },  
+                        "couple":2,
+                        "status":"married",
+                        "memberPosition": 3
+                    }
+                ]
+                },
+                {
+                    "subPosition": 2,
+                    "famDetails": [
+                        {
+                            "familyId": "3-1",
+                            "name": "Umesh Pawar",
+                            "birthYear": 1968,
+                            "birthDay": "",
+                            "birthMonth": "",
+                            "deathYear": "",
+                            "photo": "Umesh.jpg",
+                            "information": {
+                                "name": "Umesh Pawar",
+                                "DOB": "1968",
+                                "position": "Son of Shamrao Pawar",
+                                "PlaceOfBirth": "Satara",
+                                "occupation": "Carpenter",
+                                "workBackground": "work as a Carpenter by profession",                    
+                                "maritalStatus": "Married",
+                                "weddingDetails": "",
+                                "Spouse_Husband": "Savita Pawar",
+                                "Children":[
+                                {"name" : "Rutuja Pawar"},
+                                {"name" : "Omkar Pawar"}
+                                ]
+                            },  
+                            "couple":3,
+                            "status":"married",
+                            "memberPosition": 5
+                        },
+                        {
+                            "familyId": "3-2",
+                            "name": "Savita Pawar",
+                            "birthYear": 1978,
+                            "birthDay": "",
+                            "birthMonth": "",
+                            "deathYear": "",
+                            "photo": "Savita.jpg",
+                            "information": {
+                                "name": "Savita Pawar",
+                                "DOB": "1978",
+                                "position": "Spouse of Umesh Pawar",
+                                "PlaceOfBirth": "Satara",
+                                "occupation": "Housewife",
+                                "workBackground": "Homemaker",                    
+                                "maritalStatus": "Married",
+                                "weddingDetails": "",
+                                "Spouse_Husband": "Umesh Pawar",
+                                "Children":[
+                                {"name" : "Rutuja Pawar"},
+                                {"name" : "Omkar Pawar"}
+                                ]
+                            },  
+                            "couple":3,
+                            "status":"married",
+                            "memberPosition": 6
+                        }
+                    ]
+                }
+        ]
+    },
+    {
+        "id":3,
+        "position": 3,
+        "family": [
+                {
+                "subPosition": 1,
+                "famDetails": [
+                    {
+                        "familyId": "4-1",
+                        "name": "Pallavi Pawar",
+                        "birthYear": 1992,
+                        "birthDay": 14,
+                        "birthMonth": "Jan",
+                        "deathYear": "",
+                        "photo": "Pallavi.jpg",
+                        "information": {
+                            "name": "Pallavi Pawar",
+                            "DOB": "14 January 1992",
+                            "position": "Spouse of Rohit Pawar",
+                            "PlaceOfBirth": "Satara",
+                            "occupation": "Lead in a MNC Company",
+                            "workBackground": "Work in a Tata Cummins as a Lead.",                    
+                            "maritalStatus": "Married",
+                            "weddingDetails": "",
+                            "Spouse_Husband": "Rohit Pawar",
+                            "Children":[
+                            {"name" : "Aaradhya Pawar"}
+                            ]
+                        }, 
+                        "couple":4,
+                        "status":"married",
+                        "memberPosition": 8
+                    },
+                    {
+                        "familyId": "4-2",
+                        "name": "Rohit Pawar",
+                        "birthYear": 1992,
+                        "birthDay": 25,
+                        "birthMonth": "May",
+                        "deathYear": "",
+                        "photo": "Rohit.jpg",
+                        "information": {
+                            "name": "Rohit Pawar",
+                            "DOB": "25 May 1992",
+                            "position": "Son of Ramesh Pawar",
+                            "PlaceOfBirth": "Satara",
+                            "occupation": "Employee in a Pvt Company",
+                            "workBackground": "Work in a Cooper Corporation as a Employee.",                    
+                            "maritalStatus": "Married",
+                            "weddingDetails": "",
+                            "Spouse_Husband": "Pallavi Pawar",
+                            "Children":[
+                            {"name" : "Aaradhya Pawar"}
+                            ]
+                        }, 
+                        "couple":4,
+                        "status":"married",
+                        "memberPosition": 7
+                    }
+                ]
+                },
+                {
+                    "subPosition": 2,
+                    "famDetails": [
+                        {
+                            "familyId": "5-1",
+                            "name": "Prajakta Pawar",
+                            "birthYear": 1996,
+                            "birthDay": 9,
+                            "birthMonth": "May",
+                            "deathYear": "",
+                            "photo": "Prajakta.jpg",
+                            "information": {
+                                "name": "Prajakta Pawar",
+                                "DOB": "9 May 1996",
+                                "position": "Spouse of Shubham Pawar",
+                                "PlaceOfBirth": "Mumbai",
+                                "occupation": "Housewife",
+                                "workBackground": "Homemaker",                         
+                                "maritalStatus": "Married",
+                                "weddingDetails": "",
+                                "Spouse_Husband": "Shubham Pawar",
+                                "Children":[]
+                            }, 
+                            "couple":5,
+                            "status":"married",
+                            "memberPosition": 11
+                        },
+                        {
+                            "familyId": "5-2",
+                            "name": "Shubham Pawar",
+                            "birthYear": 1996,
+                            "birthDay": 6,
+                            "birthMonth": "Feb",
+                            "deathYear": "",
+                            "photo": "Shubham.jpg",
+                            "information": {
+                                "name": "Shubham Pawar",
+                                "DOB": "6 Febuary 1995",
+                                "position": "Son of Ramesh Pawar",
+                                "PlaceOfBirth": "Satara",
+                                "occupation": "Employee in a Pvt Company",
+                                "workBackground": "Work as a Software Developer in a Pvt Ltd Company.",                         
+                                "maritalStatus": "Married",
+                                "weddingDetails": "",
+                                "Spouse_Husband": "Prajakta Pawar",
+                                "Children":[]
+                            }, 
+                            "couple":5,
+                            "status":"married",
+                            "memberPosition": 10
+                        }
+                    ]
+                },
+                {
+                    "subPosition": 3,
+                    "famDetails": [
+                        {
+                            "familyId": "6-1",
+                            "name": "Rutuja Pawar",
+                            "birthYear": 1999,
+                            "birthDay": 19,
+                            "birthMonth": "Apr",
+                            "deathYear": "",
+                            "photo": "Rutuja.jpg",
+                            "information": {
+                                "name": "Rutuja Pawar",
+                                "DOB": "19 April 1999",
+                                "position": "Daughter of Umesh Pawar",
+                                "PlaceOfBirth": "Satara",
+                                "occupation": "Employee in a MNC Company",
+                                "workBackground": "Work as a Software Developer in a MNC Company.",                         
+                                "maritalStatus": "Unmarried",
+                                "weddingDetails": "",
+                                "Spouse_Husband": "",
+                                "Children":[]
+                            }, 
+                            "couple":0,
+                            "status":"unmarried",
+                            "memberPosition": 12
+                        }
+                    ]
+                },
+                {
+                    "subPosition": 4,
+                    "famDetails": [
+                        {
+                            "familyId": "7-1",
+                            "name": "Omkar Pawar",
+                            "birthYear": 2001,
+                            "birthDay": 26,
+                            "birthMonth": "Oct",
+                            "deathYear": "",
+                            "photo": "Omkar.jpg",
+                            "information": {
+                                "name": "Omkar Pawar",
+                                "DOB": "26 October 2001",
+                                "position": "Son of Umesh Pawar",
+                                "PlaceOfBirth": "Satara",
+                                "occupation": "Student",
+                                "workBackground": "Student.",                         
+                                "maritalStatus": "Unmarried",
+                                "weddingDetails": "",
+                                "Spouse_Husband": "",
+                                "Children":[]
+                            }, 
+                            "couple":0,
+                            "status":"unmarried",
+                            "memberPosition": 13
+                        }
+                    ]
+                }
+        ]
+    },
+    {
+        "id":4,
+        "position": 4,
+        "family": [
+                {
+                "subPosition": 1,
+                "famDetails": [
+                    {
+                        "familyId": "8-1",
+                        "name": "Aaradhya Pawar",
+                        "birthYear": 2020,
+                        "birthDay": 9,
+                        "birthMonth": "March",
+                        "deathYear": "",
+                        "photo": "Aaradhya.jpg",
+                        "information": {
+                            "name": "Aaradhya Pawar",
+                            "DOB": "9 March 2020",
+                            "position": "Daughter of Rohit Pawar",
+                            "PlaceOfBirth": "Satara",
+                            "occupation": "",
+                            "workBackground": "",                         
+                            "maritalStatus": "Unmarried",
+                            "weddingDetails": "",
+                            "Spouse_Husband": "",
+                            "Children":[]
+                        }, 
+                        "couple":0,
+                        "status":"unmarried",
+                        "memberPosition": 8
+                    }
+                ]
+            }
+        ]
+    }
+]
