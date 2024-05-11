@@ -472,6 +472,17 @@
   box-shadow: 0px 8px 10px 10px #8080804a;
   border-radius: 3px;
 }
+.popupBox {
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 350px;
+    width: 300px;
+    background: #ffffff91;
+    border: 1px solid black;
+    backdrop-filter: blur(3px);
+}
 @media only screen and (min-width: 480px) and (max-width: 950px) and (orientation: landscape){
   .family-Card:hover .name {
     position: absolute;

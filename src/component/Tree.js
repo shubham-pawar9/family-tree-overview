@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from "react";
+import PopupBox from "./PopupBox";
 
 const Tree = ({ familyData }) => {
+  const [memberClick, setMemberClick] = useState(false);
+  const [selectMember, setSelectMember] = useState([]);
   const [deviceStatus, setDeviceStatus] = useState(() => {
     if (window.innerWidth < window.innerHeight) {
       return "portrait";
@@ -17,6 +20,10 @@ const Tree = ({ familyData }) => {
       }
     });
   });
+  const handleMemberClick = (data) => {
+    setSelectMember(data);
+    setMemberClick(true);
+  };
   // console.log(deviceStatus);
   return (
     <>
@@ -39,6 +46,7 @@ const Tree = ({ familyData }) => {
                               key={index}
                               id={`familyId${value.familyId}`}
                               className={`family-Card ${value.status}`}
+                              onClick={() => handleMemberClick(value)}
                             >
                               <img
                                 className="family-photo"
@@ -76,6 +84,7 @@ const Tree = ({ familyData }) => {
             />
           </div>
         )}
+        {/* {memberClick && <PopupBox selectMember={selectMember} />} */}
       </div>
     </>
   );
