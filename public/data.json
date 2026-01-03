@@ -251,7 +251,7 @@
                         "information": {
                             "name": "Ramesh Pawar",
                             "DOB": "25 May 1964",
-                            "position": "Son of Shamrao Pawar",
+                            "position": "Son of Shamrao and Tarabai Pawar",
                             "PlaceOfBirth": "Satara",
                             "occupation": "Security Guard",
                             "workBackground": "Work as a Security Guard in a Pvt Firm",                    
@@ -321,7 +321,7 @@
                             "information": {
                                 "name": "Umesh Pawar",
                                 "DOB": "1968",
-                                "position": "Son of Shamrao Pawar",
+                                "position": "Son of Shamrao and Tarabai Pawar",
                                 "PlaceOfBirth": "Satara",
                                 "occupation": "Carpenter",
                                 "workBackground": "work as a Carpenter by profession",                    
@@ -526,7 +526,7 @@
                         "information": {
                             "name": "Rohit Pawar",
                             "DOB": "25 May 1992",
-                            "position": "Son of Ramesh Pawar",
+                            "position": "Son of Ramesh and Rekha Pawar",
                             "PlaceOfBirth": "Satara",
                             "occupation": "Employee in a Pvt Company",
                             "workBackground": "Work in a Cooper Corporation as a Employee.",                    
@@ -657,7 +657,7 @@
                             "information": {
                                 "name": "Shubham Pawar",
                                 "DOB": "6 Febuary 1995",
-                                "position": "Son of Ramesh Pawar",
+                                "position": "Son of Ramesh and Rekha Pawar",
                                 "PlaceOfBirth": "Satara",
                                 "occupation": "Employee in a Pvt Company",
                                 "workBackground": "Work as a Software Developer in a Pvt Ltd Company.",                         
@@ -712,7 +712,7 @@
                             "information": {
                                 "name": "Rutuja Pawar",
                                 "DOB": "19 April 1999",
-                                "position": "Daughter of Umesh Pawar",
+                                "position": "Daughter of Umesh and Savita Pawar",
                                 "PlaceOfBirth": "Satara",
                                 "occupation": "Employee in a MNC Company",
                                 "workBackground": "Work as a Software Developer in a MNC Company.",                         
@@ -767,7 +767,7 @@
                             "information": {
                                 "name": "Omkar Pawar",
                                 "DOB": "26 October 2001",
-                                "position": "Son of Umesh Pawar",
+                                "position": "Son of Umesh and Savita Pawar",
                                 "PlaceOfBirth": "Satara",
                                 "occupation": "Student",
                                 "workBackground": "Student.",                         
@@ -816,7 +816,7 @@
                         "information": {
                             "name": "Aaradhya Pawar",
                             "DOB": "9 March 2020",
-                            "position": "Daughter of Rohit Pawar",
+                            "position": "Daughter of Rohit and Pallavi Pawar",
                             "PlaceOfBirth": "Satara",
                             "occupation": "",
                             "workBackground": "",                         
