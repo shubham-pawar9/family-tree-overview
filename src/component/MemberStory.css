@@ -1,0 +1,132 @@
+.memberStory {
+    padding: 5px;
+}
+.memberIcon {
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.memberName {
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-variant-caps: petite-caps;
+    text-shadow: 2px 1px 2px #808080a6;
+}
+.story-header {
+    display: flex;
+    align-items: center;
+}
+.story-navbar{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+.story-navbar ol {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    gap :20px;
+    cursor: pointer;
+}
+.story-navbar ol li {
+    padding: 2px 5px;
+    background: #8080803d;
+    border-radius: 4px;
+    color: #777373;
+}
+.lifeStory {
+    /* border: 1px solid; */
+    position: relative;
+}
+.storyLine {
+    height: 500px;
+    width: 2px;
+    background: gray;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.event-details {
+    padding: 10px;
+    width: fit-content;
+    background: #ad5d67;
+    border-radius: 5px;
+    position: absolute;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.event-details.first {
+    top: -15px;
+    left: -30px;
+}
+.event-details.second {
+    top: 185px;
+    left: -30px;
+}
+.event-details.third {
+    bottom: 0;
+    left: -30px;
+}
+.storyLine-details {
+    height: 500px;
+    width: calc(100% - 120px);
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hidden {
+    display: none;
+}
+.storyLine-main-details {
+    /* height: 200px; */
+    width: 98%;
+    border-radius: 10px;
+    box-shadow: -1px 8px 16px 2px #8080804d;
+}
+.description-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+.description-div img {
+    width: 100%;
+    height: 145px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+}
+.desc-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #ad5d67;
+}
+.story-navbar .active {
+    background: #466e90;
+    color: #ffffff;
+    font-weight: 600;
+}
+.close-member {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.wip-icon {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (min-width: 550px) and (orientation: landscape) {
+    .storyLine-main-details {
+        width: 335px;
+    }
+}

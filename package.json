@@ -1,7 +1,7 @@
 {
   "name": "family-tree",
   "version": "0.1.0",
-  "homepage": "https://shubham-pawar9.github.io/family-tree",
+  "homepage": "https://shubham-pawar9.github.io/family-tree-overview/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",

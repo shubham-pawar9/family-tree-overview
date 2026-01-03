@@ -30,8 +30,9 @@
   border: 1px solid #747474;
 }
 .navList li.active {
-  color: #5b5b5b;
-  border: 1px solid #747474;
+  background: #466e90;
+  color: #ffffff;
+  font-weight: 600;
 }
 .family-photo {
   /* height: 80px;
@@ -439,6 +440,7 @@
     box-shadow: 0px 10px 8px #80808052;
     /* cursor: pointer; */
     flex-direction: column;
+    cursor: pointer;
 }
 .alert-div {
   position: absolute;
@@ -465,8 +467,8 @@
   align-items: center;
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 120px;
+  transform: translate(-50%);
   width: 85vw;
   padding: 20px;
   box-shadow: 0px 8px 10px 10px #8080804a;
@@ -641,4 +643,9 @@
     left: -280px;
 }
 
+}
+@media only screen and (min-width: 550px) and (orientation: landscape) {
+  .membersDiv .memberDiv {
+      width: 405px;
+  }
 }

@@ -14,6 +14,44 @@
                 "birthMonth": "",
                 "deathYear": 2012,
                 "photo": "Aanna.jpg",
+                "storyLine": [
+                    {
+                    "id": "first",
+                    "name": "Death",
+                    "description": [
+                        {
+                            "text": "Death at 2012",
+                            "place": "Satara",
+                            "img": null,
+                            "video": null
+                        }
+                    ]
+                    },
+                    {
+                    "id": "second",
+                    "name": "Marriage",
+                    "description": [
+                        {
+                            "text": "Marriage at 1960",
+                            "img": "anna_tai_weds.jpg",
+                            "place": "Satara",
+                            "video": null
+                        }
+                    ]
+                    },
+                    {
+                    "id": "third",
+                    "name": "Born",
+                    "description": [
+                        {
+                            "text": "Born at 1939",
+                            "place": "Satara",
+                            "img": "born_vintage.png",
+                            "video": null
+                        }
+                    ]
+                    }
+            ],
                 "information": {
                     "name": "Shamrao Pawar",
                     "DOB": "1939",
@@ -36,11 +74,38 @@
             {
                 "familyId": "1-2",
                 "name": "Tarabai Pawar",
-                "birthYear": 1949,
+                "birthYear": 1947,
                 "birthDay": "",
                 "birthMonth": "",
                 "deathYear": "",
                 "photo": "Tai.jpg",
+                "storyLine": [
+                    {
+                    "id": "first",
+                    "name": "Marriage",
+                    "description": [
+                        {
+                            "text": "Marriage at 1960",
+                            "img": "anna_tai_weds.jpg",
+                            "place": "Satara",
+                            "video": null
+                        }
+                    ]
+                    },
+                    {
+                        "id": "third",
+                        "name": "Born",
+                        "description": [
+                            {
+                                "text": "Born at 1947",
+                                "place": "Satara",
+                                "img": "born_vintage.png",
+                                "video": null
+                            }
+                        ]
+                        }
+                    
+            ],
                 "information": {
                     "name": "Tarabai Pawar",
                     "DOB": "1939",
@@ -80,6 +145,44 @@
                         "birthMonth": "Aug",
                         "deathYear": "",
                         "photo": "Rekha.jpg",
+                        "storyLine": [
+                            {
+                            "id": "first",
+                            "name": "Marriage",
+                            "description": [
+                                {
+                                    "text": "Marriage at 1989",
+                                    "place": "Satara",
+                                    "img": "ramesh_rekha_weds.jpg",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "second",
+                            "name": "Education",
+                            "description": [
+                                {
+                                    "text": "8th Standard",
+                                    "img": "vintage_education.png",
+                                    "place": "Satara",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "third",
+                            "name": "Born",
+                            "description": [
+                                {
+                                    "text": "Born at 1974",
+                                    "place": "Satara",
+                                    "img": "born_vintage.png",
+                                    "video": null
+                                }
+                            ]
+                            }
+                    ],
                         "information": {
                             "name": "Rekha Pawar",
                             "DOB": "6 August 1974",
@@ -107,6 +210,44 @@
                         "birthMonth": "May",
                         "deathYear": "",
                         "photo": "Ramesh.jpg",
+                        "storyLine": [
+                            {
+                            "id": "first",
+                            "name": "Marriage",
+                            "description": [
+                                {
+                                    "text": "Marriage at 1989",
+                                    "place": "Satara",
+                                    "img": "ramesh_rekha_weds.jpg",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "second",
+                            "name": "Education",
+                            "description": [
+                                {
+                                    "text": "11th Standard",
+                                    "img": "vintage_education.png",
+                                    "place": "Satara",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "third",
+                            "name": "Born",
+                            "description": [
+                                {
+                                    "text": "Born at 1964",
+                                    "place": "Satara",
+                                    "img": "born_vintage.png",
+                                    "video": null
+                                }
+                            ]
+                            }
+                    ],
                         "information": {
                             "name": "Ramesh Pawar",
                             "DOB": "25 May 1964",
@@ -139,6 +280,44 @@
                             "birthMonth": "",
                             "deathYear": "",
                             "photo": "Umesh.jpg",
+                            "storyLine": [
+                                {
+                                "id": "first",
+                                "name": "Marriage",
+                                "description": [
+                                    {
+                                        "text": "Marriage at 1996",
+                                        "place": "Satara",
+                                        "img": "umesh_savita_weds.jpg",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "second",
+                                "name": "Education",
+                                "description": [
+                                    {
+                                        "text": "10th (SSC)",
+                                        "img": "vintage_education.png",
+                                        "place": "Satara",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "third",
+                                "name": "Born",
+                                "description": [
+                                    {
+                                        "text": "Born at 1968",
+                                        "place": "Satara",
+                                        "img": "born_vintage.png",
+                                        "video": null
+                                    }
+                                ]
+                                }
+                        ],
                             "information": {
                                 "name": "Umesh Pawar",
                                 "DOB": "1968",
@@ -166,6 +345,44 @@
                             "birthMonth": "",
                             "deathYear": "",
                             "photo": "Savita.jpg",
+                            "storyLine": [
+                                {
+                                "id": "first",
+                                "name": "Marriage",
+                                "description": [
+                                    {
+                                        "text": "Marriage at 1989",
+                                        "place": "Satara",
+                                        "img": "umesh_savita_weds.jpg",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "second",
+                                "name": "Education",
+                                "description": [
+                                    {
+                                        "text": "12th (HSC)",
+                                        "img": "vintage_education.png",
+                                        "place": "Satara",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "third",
+                                "name": "Born",
+                                "description": [
+                                    {
+                                        "text": "Born at 1978",
+                                        "place": "Satara",
+                                        "img": "born_vintage.png",
+                                        "video": null
+                                    }
+                                ]
+                                }
+                        ],
                             "information": {
                                 "name": "Savita Pawar",
                                 "DOB": "1978",
@@ -204,6 +421,44 @@
                         "birthMonth": "Jan",
                         "deathYear": "",
                         "photo": "Pallavi.jpg",
+                        "storyLine": [
+                            {
+                            "id": "first",
+                            "name": "Marriage",
+                            "description": [
+                                {
+                                    "text": "Marriage at 2018",
+                                    "place": "Satara",
+                                    "img": "rohit_pallavi_weds.png",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "second",
+                            "name": "Education",
+                            "description": [
+                                {
+                                    "text": "12th + Diploma",
+                                    "img": "color_education.png",
+                                    "place": "Satara",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "third",
+                            "name": "Born",
+                            "description": [
+                                {
+                                    "text": "Born at 14 January 1992",
+                                    "place": "Satara",
+                                    "img": "born_vintage.png",
+                                    "video": null
+                                }
+                            ]
+                            }
+                    ],
                         "information": {
                             "name": "Pallavi Pawar",
                             "DOB": "14 January 1992",
@@ -230,6 +485,44 @@
                         "birthMonth": "May",
                         "deathYear": "",
                         "photo": "Rohit.jpg",
+                        "storyLine": [
+                            {
+                            "id": "first",
+                            "name": "Marriage",
+                            "description": [
+                                {
+                                    "text": "Marriage at 2018",
+                                    "place": "Satara",
+                                    "img": "rohit_pallavi_weds.png",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "second",
+                            "name": "Education",
+                            "description": [
+                                {
+                                    "text": "10th + ITI",
+                                    "img": "color_education.png",
+                                    "place": "Satara",
+                                    "video": null
+                                }
+                            ]
+                            },
+                            {
+                            "id": "third",
+                            "name": "Born",
+                            "description": [
+                                {
+                                    "text": "Born at 25 May 1992",
+                                    "place": "Satara",
+                                    "img": "born_vintage.png",
+                                    "video": null
+                                }
+                            ]
+                            }
+                    ],
                         "information": {
                             "name": "Rohit Pawar",
                             "DOB": "25 May 1992",
@@ -261,6 +554,44 @@
                             "birthMonth": "May",
                             "deathYear": "",
                             "photo": "Prajakta.jpg",
+                            "storyLine": [
+                                {
+                                "id": "first",
+                                "name": "Marriage",
+                                "description": [
+                                    {
+                                        "text": "Marriage at 2022",
+                                        "place": "Satara",
+                                        "img": "shubham_prajakta_weds.png",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "second",
+                                "name": "Education",
+                                "description": [
+                                    {
+                                        "text": "Bachelor in Arts",
+                                        "img": "color_education.png",
+                                        "place": "Mumbai",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "third",
+                                "name": "Born",
+                                "description": [
+                                    {
+                                        "text": "Born at 9 May 1996",
+                                        "place": "Mumbai",
+                                        "img": "born_vintage.png",
+                                        "video": null
+                                    }
+                                ]
+                                }
+                        ],
                             "information": {
                                 "name": "Prajakta Pawar",
                                 "DOB": "9 May 1996",
@@ -285,6 +616,44 @@
                             "birthMonth": "Feb",
                             "deathYear": "",
                             "photo": "Shubham.jpg",
+                            "storyLine": [
+                                {
+                                "id": "first",
+                                "name": "Marriage",
+                                "description": [
+                                    {
+                                        "text": "Marriage at 2022",
+                                        "place": "Satara",
+                                        "img": "shubham_prajakta_weds.png",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "second",
+                                "name": "Education",
+                                "description": [
+                                    {
+                                        "text": "Mechanical Engineer",
+                                        "img": "color_education.png",
+                                        "place": "Satara",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "third",
+                                "name": "Born",
+                                "description": [
+                                    {
+                                        "text": "Born at 6 Febuary 1995",
+                                        "place": "Satara",
+                                        "img": "born_vintage.png",
+                                        "video": null
+                                    }
+                                ]
+                                }
+                        ],
                             "information": {
                                 "name": "Shubham Pawar",
                                 "DOB": "6 Febuary 1995",
@@ -314,6 +683,32 @@
                             "birthMonth": "Apr",
                             "deathYear": "",
                             "photo": "Rutuja.jpg",
+                            "storyLine": [
+                                {
+                                "id": "first",
+                                "name": "Education",
+                                "description": [
+                                    {
+                                        "text": "Computer Engineer",
+                                        "img": "color_education.png",
+                                        "place": "Satara",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "third",
+                                "name": "Born",
+                                "description": [
+                                    {
+                                        "text": "Born at 19 April 1999",
+                                        "place": "Satara",
+                                        "img": "born_vintage.png",
+                                        "video": null
+                                    }
+                                ]
+                                }
+                        ],
                             "information": {
                                 "name": "Rutuja Pawar",
                                 "DOB": "19 April 1999",
@@ -343,6 +738,32 @@
                             "birthMonth": "Oct",
                             "deathYear": "",
                             "photo": "Omkar.jpg",
+                            "storyLine": [
+                                {
+                                "id": "first",
+                                "name": "Education",
+                                "description": [
+                                    {
+                                        "text": "Bachelor in Commerse",
+                                        "img": "color_education.png",
+                                        "place": "Satara",
+                                        "video": null
+                                    }
+                                ]
+                                },
+                                {
+                                "id": "third",
+                                "name": "Born",
+                                "description": [
+                                    {
+                                        "text": "Born at 26 October 2001",
+                                        "place": "Satara",
+                                        "img": "born_vintage.png",
+                                        "video": null
+                                    }
+                                ]
+                                }
+                        ],
                             "information": {
                                 "name": "Omkar Pawar",
                                 "DOB": "26 October 2001",
@@ -378,6 +799,20 @@
                         "birthMonth": "March",
                         "deathYear": "",
                         "photo": "Aaradhya.jpg",
+                        "storyLine": [
+                            {
+                            "id": "first",
+                            "name": "Born",
+                            "description": [
+                                {
+                                    "text": "Born at 9 March 2020",
+                                    "place": "Satara",
+                                    "img": "born_vintage.png",
+                                    "video": null
+                                }
+                            ]
+                            }
+                    ],
                         "information": {
                             "name": "Aaradhya Pawar",
                             "DOB": "9 March 2020",

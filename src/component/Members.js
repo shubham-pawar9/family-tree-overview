@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import MemberStory from "./MemberStory";
 
 const Members = ({ familyData }) => {
-  //   const [infoShow, setInfoShow] = useState(false);
+  const [selectMember, setSelectMember] = useState("");
+  const [storyShow, setStoryShow] = useState(false);
+  //   const [infoShow, setInfoShow] = useState(false);]
   const handleInfoShow = (id) => {
     // console.log(infoShow);
     if (document.querySelector(`#memberId_${id} .information.active`)) {
@@ -30,56 +33,51 @@ const Members = ({ familyData }) => {
       });
     }, 2000);
   }, []);
+  const handleMemberSelect = (member) => {
+    setSelectMember(member);
+    setStoryShow(true);
+  };
   return (
     <>
-      <h2>Members</h2>
-      <div className="membersDiv">
-        {familyData.map((item) =>
-          item.family.map((val, index) =>
-            val.famDetails
-              .sort((a, b) => a.memberPosition - b.memberPosition) // Sort based on memberPosition
-              .map((value) => {
-                return (
-                  <div
-                    className="memberDiv"
-                    key={value.familyId}
-                    id={`memberId_${value.familyId}`}
-                  >
-                    <div className="memberFirstDiv">
-                      <div className="memberPhoto-div">
-                        <img
-                          className="memberPhoto"
-                          src={
-                            process.env.PUBLIC_URL + `/images/${value.photo}`
-                          }
-                          alt={value.name}
-                        />
-                      </div>
-                      <div className="detailsDiv">
-                        <div>
-                          <span className="member-name">{value.name}</span>
-                          {value.information.occupation.length > 0 && (
-                            <span className="member-work">
-                              {`  (${value.information.occupation})`}
-                            </span>
-                          )}
+      {!storyShow && (
+        <div className="membersDiv">
+          {familyData.map((item) =>
+            item.family.map((val, index) =>
+              val.famDetails
+                .sort((a, b) => a.memberPosition - b.memberPosition) // Sort based on memberPosition
+                .map((value) => {
+                  return (
+                    <div
+                      className="memberDiv"
+                      key={value.familyId}
+                      id={`memberId_${value.familyId}`}
+                      onClick={() => handleMemberSelect(value)}
+                    >
+                      <div className="memberFirstDiv">
+                        <div className="memberPhoto-div">
+                          <img
+                            className="memberPhoto"
+                            src={
+                              process.env.PUBLIC_URL + `/images/${value.photo}`
+                            }
+                            alt={value.name}
+                          />
                         </div>
-                        <span className="member-position">
-                          {value.information.position}
-                        </span>
+                        <div className="detailsDiv">
+                          <div>
+                            <span className="member-name">{value.name}</span>
+                            {value.information.occupation.length > 0 && (
+                              <span className="member-work">
+                                {`  (${value.information.occupation})`}
+                              </span>
+                            )}
+                          </div>
+                          <span className="member-position">
+                            {value.information.position}
+                          </span>
+                        </div>
                       </div>
-                      <button
-                        onClick={() => handleInfoShow(value.familyId)}
-                        className="see-more-arrow"
-                      >
-                        <img
-                          src={
-                            process.env.PUBLIC_URL + "/images/down-arrow.png"
-                          }
-                        />
-                      </button>
-                    </div>
-                    <div className="information">
+                      {/* <div className="information">
                       <span>Name:{value.information.name}</span>
                       <span>Date of Birth:{value.information.DOB}</span>
                       <span>
@@ -104,13 +102,17 @@ const Members = ({ familyData }) => {
                           (val) => ` ${val.name},`
                         )}
                       </span>
+                    </div> */}
                     </div>
-                  </div>
-                );
-              })
-          )
-        )}
-      </div>
+                  );
+                })
+            )
+          )}
+        </div>
+      )}
+      {storyShow && (
+        <MemberStory selectMember={selectMember} setStoryShow={setStoryShow} />
+      )}
     </>
   );
 };
